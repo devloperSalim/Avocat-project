@@ -1,0 +1,64 @@
+
+
+
+/* page ajouter 
+ */
+
+ .centerDiv
+ {
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #ccc;
+
+     width: 100%;
+ }
+ .felex
+ {
+     height: 100vh;
+     display: flex;
+     width: 50%;
+     justify-content: space-evenly;
+     align-items: center; 
+ }
+ .felex span:nth-child(1) button
+ {
+     background: rgb(244, 31, 31);
+     border: none;
+     outline: none;
+     padding: 7px;
+     color: white;
+     font-size: 19px;
+     font-weight: 500;
+     border-radius: 10px;
+ }
+ .felex span:nth-child(2) button
+ {
+     background: #ff6600;
+     border: none;
+    
+     padding: 7px;
+     color: white;
+     font-size: 19px;
+     font-weight: 500;
+     border-radius: 10px;
+ }
+ .felex span:nth-child(2) button:hover
+ {
+
+    outline-color: #ff6600;
+    outline-width: 5px;
+    outline-offset: 2px;
+    background: #e2620c;
+    
+ }
+ .felex span:nth-child(1) button:hover
+ {
+
+    outline-color: rgb(255, 3, 3);
+    outline-width: 5px;
+    outline-offset: 2px;
+    background: rgb(208, 13, 13);
+    
+ }

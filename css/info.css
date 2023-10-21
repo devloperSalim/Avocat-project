@@ -1,0 +1,130 @@
+/* .containerr .box_info
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.containerr .box_info .table_client
+{
+    width: 100%;
+}
+.containerr .box_info .table_client table 
+{
+    background: red;
+    width: 50%;
+}
+.containerr .box_info .Fichiers
+{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;  */
+    /* display: flex;
+    justify-content: center;
+    width: 200px; */
+/* } */ 
+
+/* 
+
+.containerr .box_info .Fichiers .buttons
+{ 
+    display: flex; 
+    justify-content: center; 
+    column-gap: 20px;  
+    align-items: center;
+}
+
+.containerr .box_info .Fichiers .buttons .btn_dossier
+{
+    position: relative;
+    height: 70px;
+    width: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.containerr .box_info .Fichiers .buttons .btn_dossier .btns{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    justify-content: space-around;
+    width: 100%;  
+
+}
+
+.containerr .box_info .Fichiers .buttons .btn_dossier .btns span
+{
+    height: 30px;
+    width: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #393737;
+
+}
+.containerr .box_info .Fichiers .buttons .btn_dossier .btns span:hover
+{
+    background: #968f8f;
+}
+
+.containerr .box_info .Fichiers .buttons .btn_dossier .btn-primary
+{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    height: 40px;
+    width: calc(100% - 10px);   
+}
+.table_Dossier .tab-infD tr td input {
+    width: 50%;
+    padding: 7px;
+}
+.table_Dossier .tab-infD tr {
+    background: #ff66007b;
+} */
+
+
+
+
+
+
+.section
+{  
+    min-height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.box_info
+{ 
+    margin-top: 40px;
+    width: 50%;
+} 
+.box_info .table_client table td input
+{
+    width: 100%;
+    padding: 6px;
+    background: transparent;
+}
+.box_info h3{
+    text-align: center;
+}
+.Fichiers 
+{ 
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.Fichiers .buttons
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}

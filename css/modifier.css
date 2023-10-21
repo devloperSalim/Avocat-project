@@ -1,0 +1,19 @@
+/* modifier page */
+
+.form-dossier .tab-modifier  tr td input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background: #6e6d6d32;
+    font-size: 17px;
+    text-align: center;
+}
+.form-dossier .tab-modifier    tr input[type="submit"]
+{
+    width: 100%;
+    background-color: #ed7422;
+    box-shadow: 1px 3px 4px #f99304 ,-1px -3px 4px #eeb894;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}

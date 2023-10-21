@@ -1,0 +1,57 @@
+body
+{
+    background: #393131e4;
+}
+.Edi_cont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+}
+.containerEdit
+{
+    width: 50%;  
+} 
+.containerEdit table tr td input
+{
+    width: 100%; 
+    padding: 7px;
+    background: rgba(128, 128, 128, 0.294);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+.containerEdit .button
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.containerEdit .button input {
+    padding: 3px 6px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.containerEdit .button input:first-child{
+    background: #ff6600;
+}
+.containerEdit .button input:first-child:hover{
+    background: #ef500c;
+    color: #2b2a2a;
+}
+.containerEdit .button input:last-child{
+    background: #0d76fe;
+}
+.containerEdit .button input:last-child:hover{
+    background: #0c67f0;
+    color: #081231;
+}
